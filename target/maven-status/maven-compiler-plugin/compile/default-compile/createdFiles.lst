@@ -1,0 +1,7 @@
+com\insper\product\repository\ProductRepository.class
+com\insper\product\config\SecurityConfig.class
+com\insper\product\service\ProductService.class
+com\insper\product\model\Product.class
+com\insper\product\ProductApplication.class
+com\insper\product\config\JwtAuthenticationFilter.class
+com\insper\product\controller\ProductController.class
