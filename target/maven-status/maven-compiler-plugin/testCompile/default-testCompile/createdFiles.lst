@@ -1,0 +1,6 @@
+com\insper\product\controller\ProductControllerTests$UpdateProduct.class
+com\insper\product\controller\ProductControllerTests.class
+com\insper\product\controller\ProductControllerTests$ListAllProducts.class
+com\insper\product\controller\ProductControllerTests$DeleteProduct.class
+com\insper\product\controller\ProductControllerTests$CreateProduct.class
+com\insper\product\controller\ProductControllerTests$GetProductById.class

@@ -30,16 +30,9 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@WebMvcTest(
-    controllers = ProductController.class,
-    // Exclui SecurityConfig para que não tente criar AuthenticationManager nos testes
-    excludeFilters = @ComponentScan.Filter(
-        type  = FilterType.ASSIGNABLE_TYPE,
-        classes = com.insper.product.config.SecurityConfig.class
-    )
-)
 
-@WebMvcTest(ProductController.class)
+@WebMvcTest(controllers = ProductController.class)
+@AutoConfigureMockMvc
 class ProductControllerTests {
 
     @Autowired
